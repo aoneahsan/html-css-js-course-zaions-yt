@@ -1,0 +1,66 @@
+Services List (ol)  -   1, I, i, A, a, i, I
+	Designing
+		Photoshop
+		Illustrator
+		XD
+		Figma
+		Canva
+
+	Development
+		Frontend
+			Simple Website
+				HTML5, CSS/SCSS/TailwindCSS, JS/Jquery/AlpineJS
+			SPA
+				React
+					Coding In
+						Javascript
+						Typescript
+					Other Features
+						State Management
+							React Context
+							Redux
+							Recoil
+				Angular
+				Vue
+		Backend
+			AWS Amplify
+			Firebase
+			NodeJS
+			Laravel
+			WordPress
+
+	Testing 
+		Automation testing using CyPress
+			Component Testing
+			E2E
+		Manual QA Testing
+		Load Testing using JMeter
+		Unit Testing
+		AB testing
+		API Testing
+			CyPress
+				in javascript
+				in typescript
+			Postman
+
+	Deployment
+		Deployment on AWS
+		Deployment on Digital Ocean
+		Deployment on Heroku
+		Deployment on CPanel
+
+	SEO: Search Engine Optimization
+		On-Page SEO
+		Off-Page SEO
+
+	Marketing
+		Facebook Ads
+		Linkedin Ads
+		Google Ads
+		Youtube Ads
+
+	App Maintance
+		Bug Fixes
+		New Feature Development
+		Keeping packages up-to-date
+

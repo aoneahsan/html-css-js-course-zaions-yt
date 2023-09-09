@@ -1,0 +1,32 @@
+Services List (ol)    level-1 1, level-2 I, level-3 i
+	Designing
+		Figma
+		Canva
+
+	Development
+		Frontend Development
+			HTML5
+			CSS
+			Javascript
+			React
+			Angular
+
+	Testing 
+		Automation testing using CyPress
+		Manual QA Testing
+
+	Deployment
+		Deployment on AWS
+		Deployment on Digital Ocean
+
+	SEO: Search Engine Optimization
+		On-Page SEO
+		Off-Page SEO
+
+	Marketing
+		Facebook Ads
+		Linkedin Ads
+
+	App Maintance
+		Bug Fixes
+
