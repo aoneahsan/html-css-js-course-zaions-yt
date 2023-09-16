@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Understanding Tables</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Site Logo -->
+      <div>
+        <img
+          src="./assets/images/zaions-logo.png"
+          width="100"
+          alt="Zaions Company Logo"
+          loading="lazy"
+        />
+      </div>
+
+      <!-- Navigation Links -->
+      <nav>
+        <a href="./index.html">Go back to Home Page</a>
+      </nav>
+    </header>
+
+    <section>
+      <h1>Understanding How to Create a Table/List View in HTML</h1>
+      <p>
+        We will cover table, thead, tr, th, tbody, td, and tfoot' tags in this
+        section, in today's video we will cover 'table, thead, tr and th tags',
+        in next video we will cover 'tbody, td, and tfoot tags' and after that
+        we will learn about some important attributes for these tags. - after
+        that add a comment saying "Start Here - Insert Table Tab and let's get
+        started.
+      </p>
+
+      <!-- Start Here - Insert Table Tab and let's get started. -->
+      <!-- Tags: Table, THead, TR, TH -->
+      <!-- Posts List View -->
+      <!-- ID, Tittle, Description, Image, Created At, Status, Category, Is Active, Actions -->
+      <table border="1">
+        <!-- Header Info Group Tag -->
+        <thead>
+          <!-- Table Row -->
+          <tr>
+            <!-- Table Header Cell/Column Title -->
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Created At</th>
+            <th>Status</th>
+            <th>Category</th>
+            <th>Is Active</th>
+            <th colspan="3">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Post 1</td>
+            <td>Post 1 Description</td>
+            <td>https://zaions.com</td>
+            <td>12-9-2020</td>
+            <td>Published</td>
+            <td>Programming</td>
+            <td>Yes</td>
+            <td>
+              <button>View</button>
+            </td>
+            <td>
+              <button>Edit</button>
+            </td>
+            <td>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Post 2</td>
+            <td>Post 2 Description</td>
+            <td>https://zaions.com</td>
+            <td>22-9-2020</td>
+            <td>Published</td>
+            <td>Programming</td>
+            <td>Yes</td>
+            <td>
+              <button>View</button>
+            </td>
+            <td colspan="2">
+              <button>Edit</button>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Post 3</td>
+            <td>Post 3 Description</td>
+            <td>https://zaions.com</td>
+            <td>12-9-2020</td>
+            <td>Published</td>
+            <td>Programming</td>
+            <td>Yes</td>
+            <td>
+              <button>View</button>
+            </td>
+            <td>
+              <button>Edit</button>
+            </td>
+            <td>
+              <button>Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
