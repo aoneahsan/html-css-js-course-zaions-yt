@@ -37,32 +37,81 @@
       </p>
 
       <!-- Start Here - Insert Form Tab and let's get started. -->
-      <!-- email, password, color, date, number, hidden, file, submit -->
+      <!-- Covered: email, password, color, date, number, hidden, file, submit -->
+      <!-- checkbox, radio, range, reset, url, tel -->
 
       <form id="form" name="Post Creation Form">
-        <input
-          type="text"
-          placeholder="Simple Text Input"
-          maxlength="10"
-          minlength="5"
-        />
+        <div>
+          <label for="text-input">Text Input</label>
+          <input
+            id="text-input"
+            type="text"
+            placeholder="Simple Text Input"
+            maxlength="10"
+            minlength="5"
+          />
 
-        <input type="email" placeholder="Email Input" />
+          <input type="email" placeholder="Email Input" />
 
-        <input type="password" placeholder="Password Input" />
+          <input type="password" placeholder="Password Input" />
 
-        <input type="color" />
+          <input type="color" />
 
-        <input type="date" />
+          <input type="date" />
 
-        <input type="number" />
+          <input type="number" />
 
-        <input type="hidden" value="unique user id" />
+          <input type="hidden" value="unique user id" />
 
-        <input type="file" multiple />
+          <input type="file" multiple />
+        </div>
 
-        <input type="submit" value="Submit The Form" />
+        <div>
+          <input type="checkbox" id="terms-checkbox" />
+          <label for="terms-checkbox">Accept our terms to continue</label>
+
+          <div>
+            <input type="checkbox" id="running" name="hobbies" />
+            <label for="running">Running</label>
+            <input type="checkbox" id="learning" name="hobbies" />
+            <label for="learning">Learning</label>
+            <input type="checkbox" id="teaching" name="hobbies" />
+            <label for="teaching">Teaching</label>
+          </div>
+
+          <input
+            type="radio"
+            value="male"
+            name="radio-input"
+            id="male-radio-input"
+          />
+          <label for="male-radio-input">Male</label>
+
+          <input
+            type="radio"
+            value="female"
+            name="radio-input"
+            id="female-radio-input"
+          />
+          <label for="female-radio-input">Female</label>
+
+          <input type="range" />
+
+          <input type="url" placeholder="Enter Url" />
+
+          <input type="tel" required placeholder="Enter Phone Number" />
+
+          <!-- <input type="reset" value="Reset This Form" /> -->
+          <button type="reset">Reset This Form</button>
+        </div>
+
+        <!-- <input type="submit" value="Submit The Form" /> -->
+        <button type="submit">Submit This Form</button>
+
+        <button type="button">Simple Button</button>
       </form>
+      <!-- <button type="reset">Reset Invalid</button>
+      <button type="submit">Submit Invalid</button> -->
     </section>
   </body>
 </html>
