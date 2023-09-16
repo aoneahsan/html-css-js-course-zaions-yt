@@ -1,0 +1,70 @@
+# Tags & Attributes we covered
+
+- We have covered many tags including
+  - DOCTYPE
+  - html
+  - head
+  - title
+  - meta
+  - link
+  - body
+  - h1-h6
+  - p
+  - span
+  - b/strong
+  - i/em
+  - ol
+  - ul
+  - dl
+  - li
+  - dt
+  - dd
+  - div
+  - header
+  - footer
+  - main
+  - aside
+  - section
+  - article
+  - nav
+  - img
+  - video
+  - audio
+  - iframe
+  - a
+  - table
+  - thead
+  - tr
+  - th
+  - tbody
+  - td
+  - tfoot
+  - form
+  - label
+  - input
+  - textarea
+  - select
+  - option
+  - optgroup
+  - datalist
+  - and many more
+- We also covered many attributes, including
+  - lang
+  - name
+  - content
+  - id
+  - class
+  - title
+  - type
+  - readonly
+  - disabled
+  - placeholder
+  - value
+  - selected
+  - for
+  - list
+  - src
+  - width
+  - height
+  - alt
+  - and many more

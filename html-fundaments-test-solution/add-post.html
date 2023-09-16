@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a New Post.</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./posts-list-view.html">Posts</a>
+        <a href="./contact-us.html">Contact Us</a>
+      </nav>
+    </header>
+    <section>
+      <h1>Create a New Post.</h1>
+
+      <form name="Post Creation Form">
+        <div>
+          <label for="posttitle">Post Title</label>
+          <input
+            type="text"
+            name="title"
+            id="posttitle"
+            placeholder="Post Title"
+            required
+          />
+        </div>
+        <div>
+          <label for="author">Author</label>
+          <input
+            type="email"
+            name="author"
+            id="author"
+            placeholder="Author Email"
+            required
+          />
+        </div>
+        <div>
+          <label for="image">Post Image</label>
+          <input type="file" name="image" id="image" required />
+        </div>
+        <div>
+          <label for="status">Post Status</label>
+          <select name="status" id="status" required>
+            <option>Select a Status</option>
+            <option value="Published">Published</option>
+            <option value="Draft">Draft</option>
+          </select>
+        </div>
+        <div>
+          <label for="createdAt">Created At</label>
+          <input
+            type="datetime-local"
+            name="createdAt"
+            id="createdAt"
+            required
+          />
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="isActive"
+            id="isActive"
+            checked
+            required
+          />
+          <label for="isActive">Is Active</label>
+        </div>
+
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
