@@ -1,0 +1,54 @@
+.text1,
+.text2 {
+}
+
+#p1 {
+  color: red;
+}
+
+/* Id base select priority > class base select */
+
+.text1 {
+  font-size: 30px;
+  color: white;
+  background-color: red;
+  width: 30%;
+  display: inline-block;
+  height: 300px;
+}
+
+.d-block {
+  display: block;
+}
+
+/* attribute selectors */
+/* ~=    exact word selector*/
+/* input[placeholder~="user"] {
+  background-color: orange;
+} */
+/* user, user-info, user-info something  */
+/* input[placeholder|="user"] {
+  background-color: blue;
+} */
+
+/* *=   word available anywhere in whole text */
+/* input[placeholder*="user"] {
+  background-color: blue;
+} */
+
+/* ^= word at the start */
+/* input[placeholder^="user"] {
+  background-color: blue;
+} */
+/* $= word at the end */
+input[placeholder$="user"] {
+  background-color: blue;
+}
+
+/* input[placeholder="user"] {
+  background-color: blue;
+} */
+
+p[zaions-name] {
+  font-size: 70px;
+}
