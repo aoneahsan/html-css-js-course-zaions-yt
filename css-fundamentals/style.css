@@ -1,73 +1,57 @@
-#p1 {
-  color: red;
+/* Pseudo Class Selectors - State / Specific Element Selectors */
+
+.username {
+  font-size: 20px;
 }
-
-/* Id base select priority > class base select */
-
-.text1 {
-  font-size: 30px;
-  color: white;
-  background-color: red;
-  width: 30%;
-  display: inline-block;
-  height: 300px;
-}
-
-.d-block {
-  display: block;
-}
-
-/* attribute selectors */
-/* ~=    exact word selector*/
-/* input[placeholder~="user"] {
-  background-color: orange;
-} */
-/* user, user-info, user-info something  */
-/* input[placeholder|="user"] {
-  background-color: blue;
-} */
-
-/* *=   word available anywhere in whole text */
-/* input[placeholder*="user"] {
-  background-color: blue;
-} */
-
-/* ^= word at the start */
-/* input[placeholder^="user"] {
-  background-color: blue;
-} */
-/* $= word at the end */
-input[placeholder$="user"] {
-  background-color: blue;
-}
-
-/* input[placeholder="user"] {
-  background-color: blue;
-} */
-
-p[zaions-name] {
-  font-size: 70px;
-}
-
-/* Descendant Selector */
-.div1 p {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-/* Child Selector */
-.div1 > .h1-tag1 {
-  color: red;
-  font-size: 35px;
-}
-
-/* Adjacent Sibling Selector */
-.p2 + p {
+/* :focus */
+.username:focus {
   color: green;
-  font-size: 25px;
 }
 
-/* General Sibling Selector */
-.p2 ~ p {
+.zaions-website-link:link {
+  color: rgb(41, 177, 240);
+  font-weight: 900;
+}
+
+.zaions-website-link:visited {
+  color: rgb(249, 88, 25);
+}
+
+/* mouse over - hover */
+.zaions-website-link:hover {
+  color: #ff00e6;
+  font-size: 30px;
+}
+/* :active */
+.zaions-website-link:active {
+  color: rgb(96, 249, 25);
+}
+/* link -> visited -> hover -> active */
+
+/* :first-child */
+.div1 p:first-child {
+  color: green;
+}
+
+/* :disabled */
+.username:disabled {
+  background-color: red;
+}
+
+/* :not */
+/* .div2 > p:not([zaions-selector="ahsan"]) {
+   .div2 > p { 
+  font-size: 30px;
+} */
+
+.div2 > p {
+  font-size: 30px;
+}
+/* :nth-child, :last-child */
+.div2 > p:nth-child(3) {
   color: red;
+}
+
+.div2 > p:last-child {
+  color: green;
 }
