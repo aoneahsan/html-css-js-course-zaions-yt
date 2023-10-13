@@ -37,6 +37,15 @@
   border-image-repeat: repeat;
 
   /* border-image: url(./assets/images/border.png) 27 repeat; */
+
+  /* margin-top: 80px;
+  margin-left: 80px;
+  margin-right: 70px;
+  margin-bottom: 60px; */
+
+  /* margin: 30px 40px 50px 60px; */
+  /* margin: 50px 100px; */
+  margin: 100px;
 }
 
 /* top right bottom left */
