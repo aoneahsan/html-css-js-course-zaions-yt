@@ -2,6 +2,7 @@
 
 .p1 {
   font-size: 22px;
+  /* font-family: "z Roboto"; */
 }
 
 .p1::first-letter {
@@ -44,3 +45,26 @@
   color: red;
   font-size: 30px;
 }
+
+/* Wild Card Selector "*" */
+/* * {
+  background-color: blueviolet;
+}
+
+.div1 * {
+} */
+
+/* @font-face */
+/* @font-face {
+  font-family: "z Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "z Roboto";
+  font-weight: 700;
+  font-style: normal;
+  src: url(./assets/fonts/Roboto/Roboto-Bold.ttf);
+} */
