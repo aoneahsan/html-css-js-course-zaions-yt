@@ -1,70 +1,17 @@
-/* ::first-letter, ::first-line, ::marker, ::selection, ::before, ::after */
-
-.p1 {
-  font-size: 22px;
-  font-family: "Roboto";
-}
-
-.p1::first-letter {
-  font-size: 44px;
-  color: red;
-  font-family: sans-serif;
-}
-
-.p1::first-line {
-  color: green;
-}
-
-.ul1 li {
-  font-size: 20px;
-}
-
-.ul1 li:first-child::marker {
-  color: green;
-  font-size: 40px;
-}
-
-.p1::selection {
-  background-color: purple;
-  color: white;
-}
-
 .div1 {
-  width: 200px;
-  height: 200px;
-  background-color: purple;
+  background-color: green;
+  height: 100px;
+  /* padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; */
+  /* padding: 10px; */
+  /* padding: 10px 30px 40px 100px; */
+  padding: 10px 30px;
 }
 
-.div1::before {
-  content: "ahsan";
-  color: white;
-  font-size: 30px;
-}
-.div1::after {
-  content: "mahmood";
-  color: red;
-  font-size: 30px;
-}
+/* top right bottom left */
 
-/* Wild Card Selector "*" */
-/* * {
-  background-color: blueviolet;
+.div1 > img {
+  height: 100%;
 }
-
-.div1 * {
-} */
-
-/* @font-face */
-/* @font-face {
-  font-family: "z Roboto";
-  font-weight: 400;
-  font-style: normal;
-  src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
-}
-
-@font-face {
-  font-family: "z Roboto";
-  font-weight: 700;
-  font-style: normal;
-  src: url(./assets/fonts/Roboto/Roboto-Bold.ttf);
-} */
