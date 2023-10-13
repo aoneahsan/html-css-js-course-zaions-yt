@@ -1,57 +1,46 @@
-/* Pseudo Class Selectors - State / Specific Element Selectors */
+/* ::first-letter, ::first-line, ::marker, ::selection, ::before, ::after */
 
-.username {
+.p1 {
+  font-size: 22px;
+}
+
+.p1::first-letter {
+  font-size: 44px;
+  color: red;
+  font-family: sans-serif;
+}
+
+.p1::first-line {
+  color: green;
+}
+
+.ul1 li {
   font-size: 20px;
 }
-/* :focus */
-.username:focus {
+
+.ul1 li:first-child::marker {
   color: green;
+  font-size: 40px;
 }
 
-.zaions-website-link:link {
-  color: rgb(41, 177, 240);
-  font-weight: 900;
+.p1::selection {
+  background-color: purple;
+  color: white;
 }
 
-.zaions-website-link:visited {
-  color: rgb(249, 88, 25);
+.div1 {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
 }
 
-/* mouse over - hover */
-.zaions-website-link:hover {
-  color: #ff00e6;
+.div1::before {
+  content: "ahsan";
+  color: white;
   font-size: 30px;
 }
-/* :active */
-.zaions-website-link:active {
-  color: rgb(96, 249, 25);
-}
-/* link -> visited -> hover -> active */
-
-/* :first-child */
-.div1 p:first-child {
-  color: green;
-}
-
-/* :disabled */
-.username:disabled {
-  background-color: red;
-}
-
-/* :not */
-/* .div2 > p:not([zaions-selector="ahsan"]) {
-   .div2 > p { 
-  font-size: 30px;
-} */
-
-.div2 > p {
-  font-size: 30px;
-}
-/* :nth-child, :last-child */
-.div2 > p:nth-child(3) {
+.div1::after {
+  content: "mahmood";
   color: red;
-}
-
-.div2 > p:last-child {
-  color: green;
+  font-size: 30px;
 }
