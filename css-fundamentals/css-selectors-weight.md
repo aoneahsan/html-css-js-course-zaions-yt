@@ -37,3 +37,6 @@
 - combinator selector
   - Weight: 10
   - e.g: ul > li
+- "\*" (wild card | universal) selector
+  - Weight: 0
+  - e.g: \* { ...css-rules... }
