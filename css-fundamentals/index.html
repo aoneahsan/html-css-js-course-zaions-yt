@@ -15,26 +15,26 @@
 
     <!-- Packages CSS -->
 
-    <!-- Custom CSS -->
+    <!-- Custom External CSS -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="parent">
-      <div class="div1">
-        <img
-          src="https://zaions.com/wp-content/uploads/2020/02/cropped-zaions-favicon.png"
-        />
-      </div>
-      <div class="div2">
-        <img
-          src="https://zaions.com/wp-content/uploads/2020/02/cropped-zaions-favicon.png"
-        />
-      </div>
-      <div class="div3">
-        <img
-          src="https://zaions.com/wp-content/uploads/2020/02/cropped-zaions-favicon.png"
-        />
-      </div>
+    <!-- inline-css > internal-css & external -->
+    <!-- don't use inline-css -->
+    <h1 id="h1-id" class="h1-class" zaions-custom="h1-attribute">Zaions</h1>
+
+    <div class="div1">
+      <p class="p-class" zaions-custom>
+        Zaions Website: https://zaions.com/bio
+      </p>
+      <p class="p-class" zaions-custom>
+        Zaions Website: https://zaions.com/bio
+      </p>
+      <p class="p-class" zaions-custom>
+        Zaions Website: https://zaions.com/bio
+      </p>
     </div>
+
+    <h2>Zaions Address: https://zaions.com/address</h2>
   </body>
 </html>

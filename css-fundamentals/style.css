@@ -1,31 +1,74 @@
-.parent {
-  background-color: black;
-  padding: 5px;
-}
-
-.parent div {
-  width: 33%;
-  height: 100px;
-  display: inline-block;
-  padding: 10px 30px;
-  border: 20px solid white;
-  box-sizing: border-box;
-}
-
-/* .parent .div1 {
-  width: 40%;
+/* h1#h1-id {
+  weight=100+1=101 */
+/* color: red;
 } */
 
-.parent > div > img {
-  height: 100%;
+/* #h1-id {
+  /* weight=100 * /
+  color: purple;
+} */
+
+h1 {
+  /* weight=1 */
+  color: green;
 }
 
-.div1 {
-  background-color: red;
+.h1-class {
+  /* weight=10 */
+  color: brown;
 }
-.div2 {
-  background-color: green;
+/* #h1-id.h1-class { */
+/* weight=10+100=110 */
+/* color: aqua;
+} */
+
+[zaions-custom="h1-attribute"] {
+  /* weight=10 */
+  color: rgb(61, 185, 102);
 }
-.div3 {
-  background-color: purple;
+
+/* .div1 > p {
+  weight=10+1=11
+  color: red;
+}
+
+.div1 > p {
+  weight=10+1=11
+  color: green;
+}
+.div1 > p.p-class {
+  weight=10+1+10=21
+  color: aqua;
+}
+
+p.p-class {
+  weight=10+1=11
+  color: orange;
+}
+
+p[zaions-custom] {
+  weight=10+1=11
+  color: purple;
+} */
+
+p.p-class[zaions-custom] {
+  /* weight=10+1=21 */
+  color: green;
+}
+
+.div1 > p:first-child {
+  /* weight=10+1=21 */
+  color: red;
+}
+
+h1::before {
+  /* weight=1 */
+  content: "added by css";
+  color: aqua;
+}
+
+* {
+  /* weight=0 */
+  /*  */
+  color: purple;
 }

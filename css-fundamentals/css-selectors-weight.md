@@ -25,15 +25,15 @@
 - [attributeName] | [attributeName=attributeValue]
   - Weight: 10
   - e.g: [type] | [type='email']
+- combinator selector
+  - Weight: 10
+  - e.g: ul > li
 - pseudo-class
   - Weight: 10
   - e.g: p:first-child
 - pseudo-element
   - Weight: 1
   - e.g: div::before
-- combinator selector
-  - Weight: 10
-  - e.g: ul > li
 - "\*" (wild card | universal) selector
   - Weight: 0
   - e.g: \* { ...css-rules... }
