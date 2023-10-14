@@ -22,17 +22,14 @@
 - class
   - Weight: 10
   - e.g: .h1
-- [attributeName]
+- [attributeName] | [attributeName=attributeValue]
   - Weight: 10
-  - e.g: [type]
-- [attributeName=attributeValue]
-  - Weight: 100
-  - e.g: [type='email']
+  - e.g: [type] | [type='email']
 - pseudo-class
   - Weight: 10
   - e.g: p:first-child
 - pseudo-element
-  - Weight: 100
+  - Weight: 1
   - e.g: div::before
 - combinator selector
   - Weight: 10
