@@ -1,55 +1,31 @@
-.div1 {
-  background-color: green;
-  height: 100px;
-  width: 400px;
-  /* padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px; */
-  /* padding: 10px; */
-  /* padding: 10px 30px 40px 100px; */
-  padding: 10px 30px;
-
-  /* border-top-width: 15px;
-  border-top-style: solid;
-  border-top-color: red;
-  border-right-width: 20px;
-  border-right-style: solid;
-  border-right-color: red;
-  border-bottom-width: 15px;
-  border-bottom-style: solid;
-  border-bottom-color: red;
-  border-left-width: 20px;
-  border-left-style: solid;
-  border-left-color: red; */
-
-  /* border-top: 20px dashed purple;
-  border-right: 20px dashed purple;
-  border-bottom: 20px dashed purple;
-  border-left: 20px dashed purple; */
-
-  border: 27px solid;
-
-  border-image-source: url(./assets/images/border.png);
-  border-image-slice: 27;
-  border-image-width: 27px;
-  border-image-outset: 27px;
-  border-image-repeat: repeat;
-
-  /* border-image: url(./assets/images/border.png) 27 repeat; */
-
-  /* margin-top: 80px;
-  margin-left: 80px;
-  margin-right: 70px;
-  margin-bottom: 60px; */
-
-  /* margin: 30px 40px 50px 60px; */
-  /* margin: 50px 100px; */
-  margin: 100px;
+.parent {
+  background-color: black;
+  padding: 5px;
 }
 
-/* top right bottom left */
+.parent div {
+  width: 33%;
+  height: 100px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 20px solid white;
+  box-sizing: border-box;
+}
 
-.div1 > img {
+/* .parent .div1 {
+  width: 40%;
+} */
+
+.parent > div > img {
   height: 100%;
+}
+
+.div1 {
+  background-color: red;
+}
+.div2 {
+  background-color: green;
+}
+.div3 {
+  background-color: purple;
 }
