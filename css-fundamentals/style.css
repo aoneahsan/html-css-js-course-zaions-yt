@@ -1,44 +1,22 @@
-h1 {
-  color: mediumvioletred;
-  border: 10px solid transparent;
+/* .p1 {
+  /* 1 centimeter * /
+  font-size: 1cm;
 }
 
-.div1 {
-  /* HEX Red, Green, Blue, Opacity */
-  /* color: #ff0000ff; */
-  /* color: #00ff; */
-
-  /* CSS function - Color functions - rgb - rgba - 0 - 255 */
-  /* color: rgba(0, 255, 0, 0.5); */
-
-  /* CSS function - Color functions - hsl - hsla
-  h: hue, s: saturation, l: lightness, a: alpha/opacity
-
-  hue
-  0 - 360 
-  0 / 360 = red
-  120 = green
-  240 = blue
-
-
-  saturation
-  0%   gray
-  100%  full color
-
-  lightness
-  0% full black
-  50% full color
-  100% full white
-
-  alpha
-  0    full transparent
-  1    full color
-  */
-  color: hsla(240, 100%, 50%, 1);
-  padding: 30px;
-  background-color: currentColor;
+.p2 {
+  /* 1 millimeter * /
+  font-size: 1mm;
 }
-
-.div1 p {
-  background-color: white;
+.p3 {
+  /* 1 inche * /
+  font-size: 1in;
+} */
+.p4 {
+  font-size: 16px;
 }
+/* .p5 {
+  font-size: 1pt;
+}
+.p6 {
+  font-size: 1pc;
+} */
