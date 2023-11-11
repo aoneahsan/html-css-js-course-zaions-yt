@@ -1,63 +1,44 @@
-* {
-  all: initial;
-}
-/* html {
-  color: orange;
+h1 {
+  color: mediumvioletred;
+  border: 10px solid transparent;
 }
 
 .div1 {
-  color: red;
-  border: 4px solid rgb(77, 255, 0);
+  /* HEX Red, Green, Blue, Opacity */
+  /* color: #ff0000ff; */
+  /* color: #00ff; */
+
+  /* CSS function - Color functions - rgb - rgba - 0 - 255 */
+  /* color: rgba(0, 255, 0, 0.5); */
+
+  /* CSS function - Color functions - hsl - hsla
+  h: hue, s: saturation, l: lightness, a: alpha/opacity
+
+  hue
+  0 - 360 
+  0 / 360 = red
+  120 = green
+  240 = blue
+
+
+  saturation
+  0%   gray
+  100%  full color
+
+  lightness
+  0% full black
+  50% full color
+  100% full white
+
+  alpha
+  0    full transparent
+  1    full color
+  */
+  color: hsla(240, 100%, 50%, 1);
+  padding: 30px;
+  background-color: currentColor;
 }
 
-.p2 {
-  border: inherit;
+.div1 p {
+  background-color: white;
 }
-
-.div2 {
-  /* border: unset; * /
-  /* border: initial; * /
-  font-size: 40px;
-} */
-
-/* .p3 {
-  border: inherit;
-  color: initial; /* reset the value to it's starting value */
-/* for those properties which inherit by default, unset === inherit
-  -----
-   for those properties which do not inherit by default, unset === initial */
-/* font-size: unset; * /
-  font-size: inherit;
-} */
-
-.p3 {
-  /* all: initial; */
-  /* border: inherit; */
-  /* font-size: revert; inherit */
-  /* border: revert; */
-  /* for those properties which inherit by default, revert === inherit
-  -----
-   for those properties which do not inherit by default, revert !== initial, browser 
-   
-   chrome   border = 2px solid red;
-   firefox  border = 4px dashed blue;
-   */
-  /* font-size: unset; */
-
-  /* display inline */
-  /* font-size: initial; */
-}
-
-/* .div2 {
-  color: inherit;
-}
-
-
-
-.p3 {
-  color: inherit;
-} */
-
-/* :root === html */
-
-/* color inherit */
