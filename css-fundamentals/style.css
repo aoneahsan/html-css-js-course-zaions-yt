@@ -1,34 +1,27 @@
-.p1 {
-  /* 1 em */
-  font-size: 1em;
-  /* 1em = 16px html */
-  /* relative element font-size */
+/* 16px */
+html {
+  /* font-size: 10px; */
+  /* font-size: 30px; */
+}
+.div1 {
+  width: 1000px;
+  background-color: red;
 }
 
-.p2 {
-  /* 1 rem */
-  font-size: 1rem;
-  /* 1rem = 16px */
-  /* relative to document root/html-tag */
-}
-.p3 {
-  /* 1 vw */
-  font-size: 1vw;
-  /*  */
-}
-.p4 {
-  /* 1vh */
-  font-size: 1vh;
-}
-.p5 {
-  /* 1vmin */
-  font-size: 1vmin;
-}
-.p6 {
-  /* 1vmax */
-  font-size: 1vmax;
-}
-.p7 {
-  /* 1% */
-  font-size: 1%;
+/* em relative element font-size */
+/* rem relative html/root element font-size */
+/* % same value in parent
+  width 100px
+  width 50%    50px
+*/
+
+.div1 .p1 {
+  /* by default inherited */
+  background-color: orange;
+
+  /* 500px */
+  width: 50%;
+  /* font-size: 40px; */
+  /* font-size: 40px; */
+  /* margin: 1rem; */
 }
