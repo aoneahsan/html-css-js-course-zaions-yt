@@ -6,43 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Fundamentals</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-
     <!-- Packages CSS -->
 
     <!-- Custom External CSS -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>
-      CSS Length Units - 'px' (Absolute), 'em' (Relative), 'rem' (Relative) &
-      '%' (Relative)
-    </h1>
-
-    <!-- Starting with 'px' -->
+    <!-- p tags not allowed in p tag inself -->
     <div>
-      <img
-        src="./assets/images/zaions-logo-203px.png"
-        alt=""
-        srcset=""
-        style="width: 100px"
-      />
-    </div>
+      span outer
+      <span>span inner</span>
 
-    <!-- em  === font-size -->
-    <div class="div1">
-      <p class="p1">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem culpa
-        accusamus eaque optio. Hic quae corrupti ex ducimus repellat totam
-        magnam quam laudantium, fugiat itaque libero laborum, necessitatibus
-        minus possimus.
-      </p>
+      <p>p inner</p>
     </div>
   </body>
 </html>

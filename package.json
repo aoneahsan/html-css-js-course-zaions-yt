@@ -1,0 +1,12 @@
+{
+  "name": "html-starter-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "git add . && git commit -m 'code backup' && git push -u o css-fundamentals"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
