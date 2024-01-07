@@ -1,0 +1,53 @@
+.table {
+	display: table;
+	border-spacing: 2px;
+	border-collapse: separate;
+}
+
+.thead {
+	display: table-header-group;
+}
+
+.tr {
+	display: table-row;
+}
+
+.th {
+	font-weight: bold;
+	padding: 1px;
+}
+
+.table,
+.th {
+	border: 1px solid grey;
+}
+
+.caption {
+	display: table-caption;
+	text-align: center;
+}
+
+.table-col1 {
+	background-color: red;
+}
+.table-col2 {
+	background-color: green;
+}
+
+.colgroup {
+	display: table-column-group;
+}
+
+.col {
+	display: table-column;
+	background-color: purple;
+}
+
+.tbody {
+	display: table-row-group;
+}
+
+.th,
+.td {
+	display: table-cell;
+}

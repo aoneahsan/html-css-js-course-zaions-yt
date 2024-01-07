@@ -1,23 +1,79 @@
 <!DOCTYPE html>
 <!-- by default font-size: 16px -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Fundamentals</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSS Fundamentals</title>
 
-    <!-- Packages CSS -->
+		<!-- Packages CSS -->
 
-    <!-- Custom External CSS -->
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <!-- p tags not allowed in p tag inself -->
-    <div>
-      span outer
-      <span>span inner</span>
+		<!-- Custom External CSS -->
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<!-- Table-related CSS Display Properties -->
+		<!-- table, table-caption, table-cell, table-column-group, table-column, table-header-group, table-footer-group, table-row, table-row-group, inline-table -->
+		<!-- table, table-caption, table-cell, table-column-group, table-column, table-header-group, table-row -->
 
-      <p>p inner</p>
-    </div>
-  </body>
+		<table border="1">
+			<caption>
+				Table Using HTML Tags
+			</caption>
+			<!-- <colgroup>
+				<col class="table-col1" />
+				<col span="2" class="table-col2" />
+			</colgroup> -->
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Ahsan</td>
+          <td>aoneahsan@gmail.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Zaions</td>
+          <td>info@zaions.com</td>
+        </tr>
+      </tbody>
+		</table>
+
+		<hr />
+
+		<div class="table">
+			<div class="caption">Table Using CSS Display Property</div>
+      <!-- <div class="colgroup">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div> -->
+			<div class="thead">
+				<div class="tr">
+					<div class="th">ID</div>
+					<div class="th">Name</div>
+					<div class="th">Email</div>
+				</div>
+			</div>
+
+      <div class="tbody">
+        <div class="tr">
+          <div class="td">1</div>
+          <div class="td">Ahsan</div>
+          <div class="td">aoneahsan@gmail.com</div>
+        </div>
+        <div class="tr">
+          <div class="td">1</div>
+          <div class="td">Zaions</div>
+          <div class="td">info@zaions.com</div>
+        </div>
+      </div>
+		</div>
+	</body>
 </html>
